@@ -1,0 +1,295 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #24a3ed;
+	padding: 20px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 20%;
+	padding: 20px 0;	
+}
+
+.name-logo {
+	text-align: center;
+	font-size: 76px;
+	font-weight: bold;
+	color: black;
+	padding: 10px 0;
+}
+
+.menu {
+	position: absolute;
+	top: 110px;	
+	float: left;
+	right: 0;
+}
+
+.menu ul {
+	padding: 0;
+}
+
+.menu ul li {
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	width: 130px;
+	position: relative;
+}
+
+.menu ul li a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+.menu ul li a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.menu ul ul {
+	display: none;
+}
+
+.menu ul li:hover > ul {
+	display: block;
+}
+
+.menu ul ul { 
+	position: absolute;
+}
+
+.menu ul ul li {
+	padding: 10px 0 0 0;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;	
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border:2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.produto-foto {
+	width: 80%;
+	margin: 1em auto;
+}
+
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+}
+
+.subtitulo-principal {
+	text-align: left;
+	font-size: 1.5em;
+	margin: 0 0 1em;
+}
+
+.foto-surf {
+	width: 300px;
+	float: right;
+	margin: 0 0 20px 20px;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.conteudo-color {
+	background: linear-gradient(#FFFFFF, #24a3ed);
+}
+
+.principal {
+	line-height: 1.5;
+	padding: 3em 0;
+}
+
+.principal-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.minha-foto {
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+	box-shadow: 10px 10px 10px 0 #000000;
+	border-radius: 50%;
+}
+
+.foto-left {
+	width: 220px;
+	float: left;
+	margin: 0 20px 20px 0;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.surf-trip {
+	/*display: inline-grid;*/
+	width: 940px;
+	margin: 20px auto;
+	padding: 3em 0 0;
+}
+
+.fotos {
+	display: inline-block;
+	width: 300px;
+	margin: 0 10px 0 0;
+}
+
+.surf-video {
+	padding: 3em 0;	
+}
+
+.surf-movie {
+	width: 560px;
+	margin: 0 auto;
+}
+
+.surf-movie p {
+	text-align: center;
+	line-height: 1.5;
+	margin: 0 0 10px 0;
+
+}
+
+.surf-video em {
+	font-style: italic;
+}
+
+.surf-video strong {
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	background: #000;
+	padding: 40px 0;
+	color: #FFF;
+}
+
+.copy {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+form {
+	margin: 40px 0 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.inputpadrao {
+	display:block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);		
+}
+
+/* SSV table {
+	margin: 0;
+	
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000; 
+	padding: 8px 15px;
+}*?

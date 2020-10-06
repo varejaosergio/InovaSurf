@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>InovaSurf - Contato</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">	
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img class="logo" src="logo-inovasurf-surfistalaranja.png"></h1>
+
+				<nav class="menu">
+					<h2 class="name-logo">InovaSurf</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="surfcoach.html">Surf Coach</a>
+							<ul>
+								<li><a href="equipamentos.html">Equipamentos</a></li>
+								<li><a href="treinamento.html">Treinamento</a></li>
+								<li><a href="coach.html">Coach</a></li>
+							</ul>
+						</li>
+						<li><a href="contato.html">Contato</a></li>						
+					</ul>
+
+				</nav>
+			</div>
+		</header>
+		
+		<main class="conteudo-color">
+			<form class="principal">
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="inputpadrao" required>
+
+				<label for="email">E-mail</label>
+				<input type="email" id="email" class="inputpadrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="inputpadrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="30" rows="10" id="mensagem" class="inputpadrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>				
+
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>					
+
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>					
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>			
+		</main>
+		<footer>
+			<img class="logo" src="logo-inovasurf-circuloazul.png">
+			<p class="copy">&copy; Copyright InovaSurf - 2020</p>
+		</footer>
+	</body>
+</html>
